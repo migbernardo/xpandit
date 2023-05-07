@@ -2,7 +2,7 @@
 ## 1. Walkthrough
 ### 1.1 General assumptions
 - Since an exact format specification of App names was not asked, I decided to use names without symbols and spaces to simplify all the requested data transformations in both datasets. The **parser** function is responsible for making a regex transformation on the strings e.g. "CarMax â€“" &rarr; "CarMax".
-- Incorrect readings of the .csv files was avoided by using " as escape characters according to [stack overflow](https://stackoverflow.com/questions/40413526/reading-csv-files-with-quoted-fields-containing-embedded-commas) on the **csvReader** function.
+- Incorrect reading of the .csv files was avoided by using " as escape characters according to [stack overflow](https://stackoverflow.com/questions/40413526/reading-csv-files-with-quoted-fields-containing-embedded-commas) on the **csvReader** function.
 ### 1.2 Caveats
 - On both datasets we can find instances of app names like "C Programming" and "C++ Programming". Thus, to avoid incorrect aggregation of these different apps, the parser function replaces "++" symbols with "PlusPlus".
 - There's one record on the googleplaystore.csv file which doesn't contain a Category value. It was removed from this dataset whenever it was used to make a specific dataframe.
