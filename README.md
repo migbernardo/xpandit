@@ -57,3 +57,7 @@ Number of records: 53
 - Maven archetype: net.alchim31.maven:scala-archetype-simple
 - Scala: 2.12
 - Spark: 3.4.0
+
+## 3. Output files
+
+Path: [/src/data/out/](https://github.com/migbernardo/xpandit/tree/main/src/data/out)
