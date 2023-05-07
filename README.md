@@ -60,4 +60,5 @@ Number of records: 53
 
 ## 3. Output files
 
-Path: [/src/data/out/](https://github.com/migbernardo/xpandit/tree/main/src/data/out)
+Data files: [/src/data/out/](https://github.com/migbernardo/xpandit/tree/main/src/data/out)
+Package files:  [/target/](https://github.com/migbernardo/xpandit/tree/main/target)
