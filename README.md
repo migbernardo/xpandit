@@ -40,8 +40,8 @@ Part 4 result (df_3)
 
 ![4837d7c30b12be3450b66f9474b6a732.png](/_resources/4837d7c30b12be3450b66f9474b6a732.png)
 
-Number of records: 8176
-Number of null records (Average_Sentiment_Polarity): 7157
+Number of records: 8176 \
+Number of null records (Average_Sentiment_Polarity): 7157 \
 Diff: 1019
 
 Part 5 result (df_4)
