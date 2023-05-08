@@ -201,6 +201,7 @@ object GoogleSparkProcessing extends App {
   )
     .groupBy("Genres")
     .agg(count("App").as("Count"), avg("Rating").as("Average_Rating"), sum("Average_Sentiment_Polarity").as("Average_Sentiment_Polarity"))
+    .withColumnRenamed("Genres", "Genre")
 
   // CHECKS
   df_4.printSchema()
