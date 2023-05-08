@@ -190,7 +190,7 @@ object GoogleSparkProcessing extends App {
   println(df_3.filter(col("Average_Sentiment_Polarity").isNull || col("Average_Sentiment_Polarity") === "").count())
 
   // WRITE OUTPUT
-  parquetWriter("googleplaystore_cleaned.parquet")("src/data/out/")(df_2)
+  parquetWriter("googleplaystore_cleaned.parquet")("src/data/out/")(df_3)
 
   // TASK 5
   var df_4 = df_3.select(
